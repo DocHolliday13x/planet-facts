@@ -1,0 +1,20 @@
+/* Header */
+header {
+  position: relative;
+}
+
+/* Navigation */
+nav {
+  position: relative;
+  display: flex;
+}
+
+/* Body */
+body {
+  position: relative;
+}
+
+/* Footer */
+footer {
+  position: relative;
+}
