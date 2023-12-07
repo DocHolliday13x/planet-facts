@@ -12,10 +12,30 @@ header {
 nav {
   position: relative;
   display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin-right: 1rem;
 }
 
 .header__nav {
-  margin-left: 1rem;
+  margin: 1;
+  /* margin-left: 1rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 0;
+  padding-right: 10px;
+  list-style: none;
+}
+
+.header__li {
+  margin: 0 1rem;
+  padding: 5px;
+  
 }
 
 /* Body */
