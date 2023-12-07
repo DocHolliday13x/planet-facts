@@ -6,6 +6,7 @@ header {
   align-items: center;
   padding: 1rem 0;
   border-bottom: 1px solid #eaeaea;
+  padding: 5px;
 }
 
 /* Navigation */
@@ -35,12 +36,14 @@ nav {
 .header__li {
   margin: 0 1rem;
   padding: 5px;
-  
+
 }
 
 /* Body */
 body {
   position: relative;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 /* Footer */
