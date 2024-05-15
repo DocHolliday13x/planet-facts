@@ -62,8 +62,8 @@ body {
   height: 100%;
   left: 0;
   right: 0; */
-  padding: 1rem 0;
-  margin: 1rem 0;
+  /* padding: 1rem 0;
+  margin: 1rem 0; */
 }
 
 .planet__top {
@@ -74,8 +74,9 @@ body {
   align-items: left;
   padding: 10rem 0;
   transition: opacity 2.5s ease-in-out;
+  opacity: 1;
+  z-index: 2;
 }
-
 
 .planet__bottom {
   position: relative;
@@ -85,10 +86,7 @@ body {
   align-items: left;
   padding: 10rem 0;
   transition: opacity 2.5s ease-in-out;
-}
-
-.planet__top {
-  opacity: 1;
+  z-index: 1;
 }
 
 .planet__container:hover .planet__top {
