@@ -126,20 +126,23 @@ a:active {
 .planet__facts h3 {
   margin: 1rem 0;
   color: lightgrey;
+  padding: 1rem;
+  margin-top: auto;
+  font-size: medium;
 }
 
-.rotation__time {
-  border: 1px solid #fffffc;
+.planet__facts p {
+  margin: 1rem 0;
+  color: #fffffc;
+  padding: 1rem;
+  font-size: 2rem;
 }
 
-.revolution__time {
-  border: 1px solid #fffffc;
-}
-
-.radius {
-  border: 1px solid #fffffc;
-}
-
+.rotation__time,
+.revolution__time,
+.radius,
 .average__temp {
   border: 1px solid #fffffc;
+  width: 200px;
+  height: 150px;
 }
