@@ -96,6 +96,8 @@ footer {
   position: relative;
 }
 
+/* Global */
+
 a:link, a:visited {
   color: #fffffc;
   text-decoration: none;
@@ -191,3 +193,4 @@ a:active {
   width: 300px;
   height: 150px;
 }
+
