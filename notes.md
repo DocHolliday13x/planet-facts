@@ -17,3 +17,10 @@
 - I GOT THE SVG LAYERING AND ON HOVER TO WORK!
 - Updated each page with SVG layering and on hover effect.
 - Turned "Wikipedia" into a hyperlink to the desired page. Will have to apply this to all 3 wikipedia links on each page. The class structure I did might have to change to avoid overlap. Will revisit.
+
+## 17 APR 2024
+
+- Worked on index.html and styles.css only.
+- Added the source svg to the wikipedia links.
+- Added set borders around the planet facts, as well as got the font size closer to end goal.
+- Created a hamburger menu for planet overview, internal structure, and surface geology. On click displays corresponding information.
