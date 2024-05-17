@@ -59,6 +59,8 @@
 
   <!-- Surface Geology Content End -->
 
+  <!-- Tab Navigation Start -->
+
   <div class="hamburger__menu">
     <label for="menu__toggle" class="menu__btn">
       <span></span>
@@ -69,6 +71,22 @@
       <li><a href="#surface-geology" onclick="showTab('surface-geology')">03 Surface Geology</a></li>
     </ul>
   </div>
+
+  <!-- Tab Navigation End -->
+
+    <!-- JavaScript to Display Tabs + Content Start -->
+
+    <script>
+      function showTab(tabId) {
+        let tabs = document.getElementsByClassName("tab__content");
+        for (let i = 0; i < tabs.length; i++) {
+          tabs[i].style.display = "none";
+        }
+        document.getElementById(tabId).style.display = "block";
+      }
+    </script>
+  
+    <!-- JavaScript to Display Tabs + Content End -->
 
   <!-- Overview Content Start -->
 
@@ -86,19 +104,6 @@
 
   <!-- Overview Content End -->
 
-  <!-- JavaScript to Display Tabs + Content Start -->
-
-  <script>
-    function showTab(tabId) {
-      let tabs = document.getElementsByClassName("tab__content");
-      for (let i = 0; i < tabs.length; i++) {
-        tabs[i].style.display = "none";
-      }
-      document.getElementById(tabId).style.display = "block";
-    }
-  </script>
-
-  <!-- JavaScript to Display Tabs + Content End -->
 
   <!-- Internal Structure Content Start -->
 
