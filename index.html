@@ -37,6 +37,8 @@
 
   <!-- Header End -->
 
+<div class="flex__container1"> <!-- Start of flex__container1 -->
+  
   <!-- Planet SVGs Start -->
 
   <div class="planet__container">
@@ -71,19 +73,19 @@
 
   <!-- Tab Navigation End -->
 
-    <!-- JavaScript to Display Tabs + Content Start -->
+  <!-- JavaScript to Display Tabs + Content Start -->
 
-    <script>
-      function showTab(tabId) {
-        let tabs = document.getElementsByClassName("tab__content");
-        for (let i = 0; i < tabs.length; i++) {
-          tabs[i].style.display = "none";
-        }
-        document.getElementById(tabId).style.display = "block";
+  <script>
+    function showTab(tabId) {
+      let tabs = document.getElementsByClassName("tab__content");
+      for (let i = 0; i < tabs.length; i++) {
+        tabs[i].style.display = "none";
       }
-    </script>
+      document.getElementById(tabId).style.display = "block";
+    }
+  </script>
   
-    <!-- JavaScript to Display Tabs + Content End -->
+  <!-- JavaScript to Display Tabs + Content End -->
 
   <!-- Overview Content Start -->
 
@@ -96,12 +98,10 @@
       <div class="source">
         <p>Source : <a href="https://en.wikipedia.org/wiki/Mercury_(planet)">Wikipedia <img src="assets/icon-source.svg" alt="Source Icon"></a></p>
       </div>
-      </div>
     </div>
   </div>
-
+ 
   <!-- Overview Content End -->
-
 
   <!-- Internal Structure Content Start -->
 
@@ -127,6 +127,7 @@
       extensive mare-like plains and heavy cratering, indicating that it has 
       been geologically inactive for billions of years. It is more heterogeneous 
       than either Mars's or the Moon’s.</p>
+    </div>
       <div class="source3">
         <p>Source : <a href="https://en.wikipedia.org/wiki/Mercury_(planet)#Surface_geology">Wikipedia <img src="assets/icon-source.svg" alt="Source Icon"></a></p>
       </div>
@@ -134,9 +135,12 @@
   </div>
 
   <!-- Surface Geology Content End -->
+  
+</div> <!-- End of flex__container1 -->
 
   <!-- Planet Facts Flexbox Display Start -->
 
+<div id="planet__facts__container" class="flex__container2"> <!-- Start of flex__container2 -->
   <div class="planet__facts">
     <div class="rotation__time">
       <h3>ROTATION TIME</h3>
@@ -158,6 +162,7 @@
       <p>430°C</p>
     </div>
   </div>
+</div> <!-- End of flex__container2 -->
 
   <!-- Planet Facts Flexbox Display End -->
 
