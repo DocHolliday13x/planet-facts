@@ -59,8 +59,8 @@ body {
 
 .planet__container {
   position: relative;
-  margin-left: 5rem;
-  margin-right: auto;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .planet__top {
@@ -134,36 +134,42 @@ a:active {
   text-decoration: none;
 }
 
+.main__content__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 1rem 0;
+}
+
 .tab__navigation {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
-  padding: 1rem 0;
-  margin: 1rem 0;
+  /* align-items: center; */
+  /* padding: .5rem 0; */
+  /* margin: .5rem 0; */
   list-style: none;
 }
 
 .tab__overview {
   border: 1px solid #fffffc;
-  height: 50px;
-  width: 300px;
-  margin: 1rem 0;
+  /* height: 50px;
+  width: 600px; */
 }
 
 .tab__internal__structure {
   border: 1px solid #fffffc;
-  height: 50px;
-  width: 300px;
-  margin: 1rem 0;
+  /* height: 50px;
+  width: 600px; */
 }
 
 .tab__surface__geology {
   border: 1px solid #fffffc;
-  height: 50px;
-  width: 300px;
-  margin: 1rem 0;
+  /* height: 50px;
+  width: 600px; */
 }
 
 .tab__navigation.active,
