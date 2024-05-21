@@ -184,6 +184,12 @@ a:active {
   background-color: purple;
 }
 
+.tab__overview.inactive,
+.tab__internal__structure.inactive,
+.tab__surface__geology.inactive {
+  display: none;
+}
+
 .planet__facts {
   position: relative;
   display: flex;
