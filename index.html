@@ -71,8 +71,13 @@
         }
         document.getElementById(tabId).style.display = "block";
       }
+
+      // Display only the overview__tab on page load
+      window.addEventListener("load", function() {
+        showTab("overview");
+      });
     </script>
-  
+
     <!-- JavaScript to Display Tabs + Content End -->
 
     <!-- Overview Content Start -->
@@ -88,7 +93,7 @@
         </div>
       </div>
     </div>
- 
+
     <!-- Overview Content End -->
 
     <!-- Internal Structure Content Start -->

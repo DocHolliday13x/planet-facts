@@ -159,6 +159,22 @@ a:active {
   list-style: none;
 }
 
+.tab__overview.inactive,
+.tab__internal__structure.inactive,
+.tab__surface__geology.inactive {
+  display: none;
+}
+
+.tab__overview.active,
+.tab__internal__structure.active,
+.tab__surface__geology.active {
+  display: none;
+}
+
+.tab__overview.active {
+  display: block;
+}
+
 .tab__overview {
   border: 1px solid #fffffc;
   /* height: 50px;
@@ -175,19 +191,6 @@ a:active {
   border: 1px solid #fffffc;
   /* height: 50px;
   width: 600px; */
-}
-
-.tab__navigation.active,
-.tab__overview.active,
-.tab__internal__structure.active,
-.tab__surface__geology.active {
-  background-color: purple;
-}
-
-.tab__overview.inactive,
-.tab__internal__structure.inactive,
-.tab__surface__geology.inactive {
-  display: none;
 }
 
 .planet__facts {
