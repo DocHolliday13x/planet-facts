@@ -1,4 +1,4 @@
-*{outline: 2px solid red}
+/* *{outline: 2px solid red} */
 
 /* Header */
 header {
@@ -157,6 +157,12 @@ a:active {
   /* align-items: center; */
   /* padding: .5rem 0; */
   /* margin: .5rem 0; */
+  list-style: none;
+}
+
+.tab__list {
+  margin: 0 1rem;
+  padding: 5px;
   list-style: none;
 }
 
