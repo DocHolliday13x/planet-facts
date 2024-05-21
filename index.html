@@ -55,34 +55,9 @@
 
   <div id="main__content" class="main__content__container"> <!-- Start of main__content container -->
 
-    <!-- Planet Name Display Start -->
-    <div class="planet__name">
-      <h2>MERCURY</h2>
-    </div>
-    <!-- Planet Name Display End -->
+    <div id="overview" class="tab__content"><!-- Overview Content Start -->
+      <h2 class="planet__name">MERCURY</h2>
 
-    <!-- JavaScript to Display Tabs + Content Start -->
-
-    <script>
-      function showTab(tabId) {
-        let tabs = document.getElementsByClassName("tab__content");
-        for (let i = 0; i < tabs.length; i++) {
-          tabs[i].style.display = "none";
-        }
-        document.getElementById(tabId).style.display = "block";
-      }
-
-      // Display only the overview__tab on page load
-      window.addEventListener("load", function() {
-        showTab("overview");
-      });
-    </script>
-
-    <!-- JavaScript to Display Tabs + Content End -->
-
-    <!-- Overview Content Start -->
-
-    <div id="overview" class="tab__content">
       <div class="overview__tab">
         <p>Mercury is the smallest planet in the Solar System and the closest 
           to the Sun. Its orbit around the Sun takes 87.97 Earth days, the 
@@ -93,10 +68,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Overview Content End -->
-
-    <!-- Internal Structure Content Start -->
 
     <div id="internal-structure" class="tab__content">
       <div class="internal__structure">
@@ -110,10 +81,6 @@
       </div>
     </div>
 
-    <!-- Internal Structure Content End -->
-
-    <!-- Surface Geology Content Start -->
-
     <div id="surface-geology" class="tab__content">
       <div class="surface__geology">
         <p>Mercury's surface is similar in appearance to that of the Moon, showing 
@@ -125,25 +92,14 @@
           <p>Source : <a href="https://en.wikipedia.org/wiki/Mercury_(planet)#Surface_geology">Wikipedia <img src="assets/icon-source.svg" alt="Source Icon"></a></p>
         </div>
       </div>
-    </div>
-
-    <!-- Surface Geology Content End -->
-
-    <!-- Tab Navigation Start -->
-
-    <nav class="tab__navigation">
-        <ul class="tab__list"></ul>
+      <nav class="tab__navigation">
+        <ul class="tab__list">
           <li class="tab__overview"><a href="#overview" onclick="showTab('overview')">01 Overview</a></li>
           <li class="tab__internal__structure"><a href="#internal-structure" onclick="showTab('internal-structure')">02 Internal Structure</a></li>
           <li class="tab__surface__geology"><a href="#surface-geology" onclick="showTab('surface-geology')">03 Surface Geology</a></li>
         </ul>
       </nav>
-
-      <!-- Tab Navigation End -->
-
-  
   </div> <!-- End of main__content container -->
-
 </div> <!-- End of flex__container1 -->
 
   <!-- Planet Facts Flexbox Display Start -->
@@ -173,6 +129,21 @@
   </div> <!-- End of flex__container2 -->
 
   <!-- Planet Facts Flexbox Display End -->
+
+  <script>
+    function showTab(tabId) {
+      let tabs = document.getElementsByClassName("tab__content");
+      for (let i = 0; i < tabs.length; i++) {
+        tabs[i].style.display = "none";
+      }
+      document.getElementById(tabId).style.display = "block";
+    }
+
+    // Display only the overview__tab on page load
+    window.addEventListener("load", function() {
+      showTab("overview");
+    });
+  </script>
 
 </body>
 
