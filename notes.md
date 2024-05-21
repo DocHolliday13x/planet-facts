@@ -24,3 +24,10 @@
 - Added the source svg to the wikipedia links.
 - Added set borders around the planet facts, as well as got the font size closer to end goal.
 - Created a hamburger menu for planet overview, internal structure, and surface geology. On click displays corresponding information.
+
+## 21 APR 2024
+
+- Worked on index.html and styles.css only.
+- Finally figured out how to get tab navigation where I wanted it.
+- Wrote a script tag to display only the planet overview on page load, then displays each section on click.
+- Two days ago I fixed the on hover for the svg element so that the on hover only works on the planet image, not the whole container.
