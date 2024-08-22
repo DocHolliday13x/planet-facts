@@ -4,17 +4,17 @@ This is a solution to the [Planets fact site challenge on Frontend Mentor](https
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - Planets fact site solution](#frontend-mentor---planets-fact-site-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Links](#links)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -28,20 +28,9 @@ Users should be able to:
 
 ![Preview](./assets/preview.jpg)
 
-### Screenshot
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Live Site URL: [Planet Facts](https://planet-facts-sable.vercel.app/)
 
 ### Built with
 
@@ -56,36 +45,20 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+I learned a lot about CSS and how to manipulate SVGs. This was an excellent project for HTML practice, and even though I am proud of what I have done, I know that it can be significantly improved. I am excited to continue working on this project and make it even better.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I have reached minimum viable product, but this is not quite where I want it to be. I will continue to work on this project until I am satisfied with the result.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+There is still some small issues that I need to figure out, such as finding a better font, and making the site more responsive. I also need to add a favicon and a title to the site. One other small detail is that the SVG for Saturn is not displaying correctly. I will need to revisit this and correct it.
 
 ### Useful resources
 
+![GIF](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXB2dHRqa3U2d2QxbmU3ZW9reWdxbGE2NGtyOGlxYms2N3dtYWtmeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lqpV8eN9GcF2McoFJP/giphy.gif)
+
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
@@ -94,3 +67,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Twitter - [@rking1323](https://twitter.com/rking1323)
 
 ## Acknowledgments
+
+I would like to thank Frontend Mentor for providing this challenge. I would also like to thank my friends for providing feedback and suggestions on how to improve this project.
