@@ -31,3 +31,10 @@
 - Finally figured out how to get tab navigation where I wanted it.
 - Wrote a script tag to display only the planet overview on page load, then displays each section on click.
 - Two days ago I fixed the on hover for the svg element so that the on hover only works on the planet image, not the whole container.
+
+## 22 AUG 2024
+
+- Picking up where I left off. I have began transferring individual planet data to index template and last worked on Earth.
+- I need to finish transferring the data for the remaining planets.
+- Noticed that my hover transition on planet svgs in not functioning for any planets other than Mercury. Addressing now.
+- SVG on hover wasn't working becuase I didn't have the classes on the svg elements. Fixed.
